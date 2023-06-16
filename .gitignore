@@ -1,0 +1,12 @@
+.vscode
+*.d
+*.o
+*.asm
+*.ihx
+*.lst
+*.sym
+*.gbc
+*.adb
+*.noi
+*.map
+*.cdb
