@@ -20,7 +20,7 @@ LDLIBS=
 all: $(BINARY)
 
 clean:
-	rm -f *.d *.o *.asm *.ihx *.lst *.sym *.gbc
+	rm -f *.d *.o *.asm *.ihx *.lst *.sym *.gbc *.adb *.noi *.map *.cdb
 
 $(BINARY): $(SOURCES:.c=.o)
 
