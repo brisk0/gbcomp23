@@ -1,5 +1,5 @@
 BINARY=game.gbc
-SOURCES=main.c SPLASH.c $(wildcard assets/*.c)
+SOURCES=main.c $(wildcard assets/*.c)
 SUBDIRS=assets
 # Toolchain
 CC=lcc
