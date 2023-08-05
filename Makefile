@@ -4,8 +4,8 @@ SUBDIRS=assets
 # Toolchain
 CC=lcc
 
-CPPFLAGS=
-CFLAGS=-Wf--std-sdcc2x -msm83:gb -autobank -debug -v
+CPPFLAGS=-Iinclude
+CFLAGS=-Wf--std-sdcc2x -msm83:gb -autobank -debug -v 
 LDFLAGS=-Wm-yC -Wm-yt5 -debug
 LDLIBS=
 
