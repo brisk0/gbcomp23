@@ -17,7 +17,7 @@ blocks.c: blocks.png
 
 # At the moment some of our inputs are .h, so we will have to manage those manually
 clean:
-	rm -f *.c
+	rm -f *.c *.png
 
 # Make subdirectories
 .PHONY: subdirs $(SUBDIRS)

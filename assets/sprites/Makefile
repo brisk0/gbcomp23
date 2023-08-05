@@ -13,4 +13,4 @@ all: $(SOURCES:.aseprite=.c)
 	aseprite -b $< --save-as $@
 
 clean:
-	rm -f *.c
+	rm -f *.c *.png
