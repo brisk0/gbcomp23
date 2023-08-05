@@ -2,7 +2,11 @@
 
 P2AFLAGS=-map -use_map_attributes -use_structs
 
-all: gbcompo23_splash.c
+all: gbcompo23_splash.c blocks.c
+
+# Recipes
+blocks.c: blocks.png
+	png2asset blocks.png -spr8x8 -sw 16 -sh 24 -use_map_attributes -use_structs -keep_palette_order -c blocks.c
 
 # Patterns
 %.c: %.png
