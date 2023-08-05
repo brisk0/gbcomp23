@@ -12,7 +12,7 @@ LDLIBS=
 # Dependencies
 .PHONY: all clean
 
-all: $(BINARY)
+all: $(BINARY) subdirs
 
 # Make subdirectories
 .PHONY: subdirs $(SUBDIRS)

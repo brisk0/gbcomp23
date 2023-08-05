@@ -2,7 +2,7 @@
 
 P2AFLAGS=-map -use_map_attributes -use_structs
 
-all: gbcompo23_splash.c blocks.c
+all: gbcompo23_splash.c blocks.c subdirs
 
 # Recipes
 blocks.c: blocks.png
