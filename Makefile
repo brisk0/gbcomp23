@@ -1,5 +1,5 @@
 BINARY=game.gbc
-SOURCES=main.c $(wildcard assets/*.c)
+SOURCES=main.c $(shell find assets -name "*.c")
 SUBDIRS=assets
 # Toolchain
 CC=lcc

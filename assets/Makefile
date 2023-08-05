@@ -14,3 +14,9 @@ all: gbcompo23_splash.c
 # At the moment some of our inputs are .h, so we will have to manage those manually
 clean:
 	rm -f *.c
+
+# Make subdirectories
+.PHONY: subdirs $(SUBDIRS)
+subdirs: $(SUBDIRS)
+$(SUBDIRS):
+	$(MAKE) -C $@
